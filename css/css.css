@@ -45,23 +45,30 @@ header a{
 /* Damen */
 article
 {
-    text-align:center;
+    text-align: center;
 }
-p
+article #text
 {
-    font-size:25px;
+    width:750px;
+    margin-left: auto;
+    margin-right: auto;
 }
-p.text
+article p
+{
+    font-size:18px;
+    font-family: comic sans ms;
+}
+article p.text
 {
     text-align: left;
 }
-p.chapter
+article p.chapter
 {
     text-align:center;
     text-transform: uppercase;
     font-weight: 800;
 }
-img
+article img
 {
     margin-left: auto;
     margin-right: auto;
