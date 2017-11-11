@@ -43,8 +43,31 @@ header a{
     display: inline;
 }
 /* Damen */
-
+article
+{
+    text-align:center;
+}
+p
+{
+    font-size:25px;
+}
+p.text
+{
+    text-align: left;
+}
+p.chapter
+{
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Baton */
+=======
 footer
 {
     color: #ffffff;
