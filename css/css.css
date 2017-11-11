@@ -28,6 +28,23 @@ header a{
     left: 50%;
 }
 
+#catzen{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999999;
+    display: none;
+}
+
+#catzen iframe{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
 #menuContainer{
     position: relative;
     transform: translate(-50%,0);
@@ -45,26 +62,71 @@ header a{
 /* Damen */
 article
 {
-    text-align:center;
+    text-align: center;
+    width:70%;
+    margin-left:15%;
+    margin-right: 15%;
 }
-p
+article p
 {
-    font-size:25px;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
 }
-p.text
+article p.text
 {
     text-align: left;
 }
-p.chapter
+article p.chapter
 {
     text-align:center;
     text-transform: uppercase;
     font-weight: 800;
 }
-img
+article #print, #author
+{
+    font-size:20px;
+    font-weight: 700;
+}
+article #title, #catalogue
+{
+    font-size:26px;
+    font-family: "Freckle Face",cursive;
+}
+.noDecoration
+{
+    text-decoration: none;
+    color:white;
+}
+article img
 {
     margin-left: auto;
     margin-right: auto;
+}
+article a#print
+{
+    color:#000;
+    cursor: pointer;
+    text-decoration:none; 
+}
+article a#catalogue
+{
+    background-color:#ccc;
+    padding:0px 20px 0px 25px;
+    border-radius:5px;
+}
+article a#catalogue:hover
+{
+    background-color: firebrick;
+    color:#fff;
+}
+article a
+{
+    color:#21759b;
+}
+article a:visited
+{
+    color:#21759b;
+    text-decoration: none;
 }
 /* Baton */
 
