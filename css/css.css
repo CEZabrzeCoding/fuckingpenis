@@ -46,17 +46,14 @@ header a{
 article
 {
     text-align: center;
-}
-article #text
-{
-    width:750px;
-    margin-left: auto;
-    margin-right: auto;
+    width:70%;
+    margin-left:15%;
+    margin-right: 15%;
 }
 article p
 {
-    font-size:18px;
-    font-family: comic sans ms;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
 }
 article p.text
 {
@@ -67,6 +64,35 @@ article p.chapter
     text-align:center;
     text-transform: uppercase;
     font-weight: 800;
+}
+article #print
+{
+    font-size:20px;
+    font-weight: 700;
+}
+article #title, #catalogue
+{
+    font-size:26px;
+    font-family: "Freckle Face",cursive;
+}
+article #catalogue
+{
+    background-color:#ccc;
+    color:firebrick;
+    width:25ex;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+}
+article #catalogue:hover
+{
+    background-color:firebrick;
+    color:#fff;
+}
+.noDecoration
+{
+    text-decoration: none;
+    color:white;
 }
 article img
 {
