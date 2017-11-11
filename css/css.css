@@ -60,6 +60,12 @@ header a{
     display: inline;
 }
 /* Damen */
+button
+{
+    font-size:20px;
+    height:30px;
+    width:30px;
+}
 article
 {
     text-align: center;
@@ -82,7 +88,7 @@ article p.chapter
     text-transform: uppercase;
     font-weight: 800;
 }
-.noDecoration
+article .noDecoration
 {
     text-decoration: none;
     color:white;
