@@ -60,6 +60,12 @@ header a{
     display: inline;
 }
 /* Damen */
+button
+{
+    font-size:20px;
+    height:30px;
+    width:30px;
+}
 article
 {
     text-align: center;
@@ -82,17 +88,7 @@ article p.chapter
     text-transform: uppercase;
     font-weight: 800;
 }
-article #print, #author
-{
-    font-size:20px;
-    font-weight: 700;
-}
-article #title, #catalogue
-{
-    font-size:26px;
-    font-family: "Freckle Face",cursive;
-}
-.noDecoration
+article .noDecoration
 {
     text-decoration: none;
     color:white;
@@ -102,17 +98,25 @@ article img
     margin-left: auto;
     margin-right: auto;
 }
+article #top
+{
+    font-size:22px;
+}
 article a#print
 {
     color:#000;
     cursor: pointer;
     text-decoration:none; 
+    font-size:20px;
+    font-weight: 700;
 }
 article a#catalogue
 {
     background-color:#ccc;
     padding:0px 20px 0px 25px;
     border-radius:5px;
+    font-size:26px;
+    font-family: "Freckle Face",cursive;
 }
 article a#catalogue:hover
 {
