@@ -74,7 +74,7 @@ article img
     margin-right: auto;
 }
 /* Baton */
-=======
+
 footer
 {
     color: #ffffff;
@@ -85,4 +85,8 @@ footer
     position: relative;
     height: 100px;
     line-height: 235%;
+}
+body
+{
+  font-family: 'Lato', sans-serif;    
 }
