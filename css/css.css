@@ -68,6 +68,14 @@ img
 }
 /* Baton */
 =======
-/* Baton */
-footer{}
->>>>>>> b8d5c005576f0d1e5b08d8c00efc2546fa6368d6
+footer
+{
+    color: #ffffff;
+    font-size: 250%;
+    text-align: center;
+    background-color: #222;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    line-height: 235%;
+}
