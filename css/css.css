@@ -3,4 +3,14 @@
 /* Damen */
 
 /* Baton */
-footer{}
+footer
+{
+    color: #ffffff;
+    font-size: 250%;
+    text-align: center;
+    background-color: #222;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    line-height: 235%;
+}
