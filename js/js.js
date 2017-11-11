@@ -46,3 +46,7 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+
+document.querySelector("#toTop").addEventListener('click', function (event) {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+});
