@@ -1,16 +1,57 @@
 /* Denis */
+*{
+    margin: 0;
+    padding: 0;
+}
 
-/* Damen */
+.spacer{
+    width: 100%;
+    position: relative;
+    height: 1px;
+    background-color: grey;
+    margin: 5px 0 5px 0;
+}
 
-body
-{
+header a{
+    color: gray;
+    text-decoration: none;
+    width: 106.6666px;
     text-align: center;
+    display: block;
+    font-size: 14px;
+}
+
+
+#banner {
+    position: relative;
+    transform: translate(-50%,0);
+    left: 50%;
+}
+
+#menuContainer{
+    position: relative;
+    transform: translate(-50%,0);
+    left: 50%;
+    width: 960px;
+    height: 30px;
+    list-style-type: none; 
+}
+#menuContainer li{
+    float: left;
+    height: 30px;  
+    line-height: 30px; 
+    display: inline;
+}
+/* Damen */
+article
+{
+    text-align:center;
 }
 p
 {
     font-size:25px;
 }
-p.test
+p.text
 {
     text-align: left;
 }
@@ -20,4 +61,13 @@ p.chapter
     text-transform: uppercase;
     font-weight: 800;
 }
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Baton */
+=======
+/* Baton */
+footer{}
+>>>>>>> b8d5c005576f0d1e5b08d8c00efc2546fa6368d6
