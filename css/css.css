@@ -82,7 +82,7 @@ article p.chapter
     text-transform: uppercase;
     font-weight: 800;
 }
-article #print
+article #print, #author
 {
     font-size:20px;
     font-weight: 700;
@@ -91,20 +91,6 @@ article #title, #catalogue
 {
     font-size:26px;
     font-family: "Freckle Face",cursive;
-}
-article #catalogue
-{
-    background-color:#ccc;
-    color:firebrick;
-    width:25ex;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 4px;
-}
-article #catalogue:hover
-{
-    background-color:firebrick;
-    color:#fff;
 }
 .noDecoration
 {
@@ -115,6 +101,32 @@ article img
 {
     margin-left: auto;
     margin-right: auto;
+}
+article a#print
+{
+    color:#000;
+    cursor: pointer;
+    text-decoration:none; 
+}
+article a#catalogue
+{
+    background-color:#ccc;
+    padding:0px 20px 0px 25px;
+    border-radius:5px;
+}
+article a#catalogue:hover
+{
+    background-color: firebrick;
+    color:#fff;
+}
+article a
+{
+    color:#21759b;
+}
+article a:visited
+{
+    color:#21759b;
+    text-decoration: none;
 }
 /* Baton */
 
